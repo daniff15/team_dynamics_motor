@@ -48,13 +48,19 @@ def main():
             team = teams[team_index]
             team.display_team()
         elif choice == "3":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+        
+            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
+            team = teams[team_index]
             team.display_team_indexes()
             player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
-            if not check_player_index(player_index):
+            if not check_player_index(team, player_index):
                 continue
-            level_amount = int(input("Enter the level that the player should have: "))
-            team[player_index].level_up_to_n_items(level_amount)
-            print(f"{team[player_index].element} player leveled up.")
+            xp_amount = int(input("Enter the XP amount to add to the player: "))
+            team[player_index].add_xp(xp_amount)
+            print(f"{team[player_index].element} player gained {xp_amount} XP.")
         elif choice == "4":
             team.display_available_extra_points()
             player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
