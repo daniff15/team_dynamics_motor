@@ -2,7 +2,8 @@ from Player import Player
 from Team import Team
 from Element import Element
 from Boss import Boss
-from Battle import Battle
+from BossBattle import BossBattle
+from TeamBattle import TeamBattle
 
 def create_team(id):
     team = Team(id)
@@ -141,10 +142,10 @@ def main():
 
             def choose_boss_to_fight():
                 probability_win_bosses = [
-                    Battle.calculate_probability_of_winning(team, boss1),
-                    Battle.calculate_probability_of_winning(team, boss2),
-                    Battle.calculate_probability_of_winning(team, boss3),
-                    Battle.calculate_probability_of_winning(team, boss4)
+                    BossBattle.calculate_probability_of_winning(team, boss1),
+                    BossBattle.calculate_probability_of_winning(team, boss2),
+                    BossBattle.calculate_probability_of_winning(team, boss3),
+                    BossBattle.calculate_probability_of_winning(team, boss4)
                 ]
 
                 print_battle_menu_with_probabilities(probability_win_bosses)
@@ -170,10 +171,27 @@ def main():
                     break
 
                 boss_to_fight = [boss1, boss2, boss3, boss4][monster_choice - 1]
-                battle = Battle(team, boss_to_fight)
+                battle = BossBattle(team, boss_to_fight)
                 battle.run_battle()
 
         elif choice == "7":
+            if len(teams) < 2:
+                print("You need at least 2 teams to battle.")
+                continue
+
+            team1_index = int(input("Enter team 1 index (0 to {}): ".format(len(teams) - 1)))
+            team2_index = int(input("Enter team 2 index (0 to {}): ".format(len(teams) - 1)))
+            while team1_index == team2_index:
+                print("Team indexes must be different.")
+                team2_index = int(input("Enter team 2 index (0 to {}): ".format(len(teams) - 1)))
+
+            if not check_player_index(teams[team1_index], 0) or not check_player_index(teams[team2_index], 0):
+                continue
+
+            battle = TeamBattle(teams[team1_index], teams[team2_index])
+            battle.run_battle()
+
+        elif choice == "8":
             print("Exiting the program.")
             break
         else:

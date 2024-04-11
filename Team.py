@@ -36,7 +36,7 @@ class Team:
                     strength = Element.get_strength(type_player)
                     weakness = Element.get_weakness(type_player)
 
-                    player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness)
+                    player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness, team=self.id)
                     self.team.append(player)
                 
                 print("Team created successfully!")
@@ -56,7 +56,7 @@ class Team:
                     strength = Element.get_strength(type_player)
                     weakness = Element.get_weakness(type_player)
 
-                    player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness)
+                    player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness, team=self.id)
                     self.team.append(player)
                 
                 print("Team created successfully!")

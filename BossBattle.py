@@ -7,7 +7,7 @@ from datetime import datetime
 from Boss import Boss
 from Logger import Logger
 
-class Battle:
+class BossBattle:
     def __init__(self, team, boss):
         self.team = team
         self.boss = boss
@@ -49,7 +49,7 @@ class Battle:
                         logger.log(f"{target.element} player has been defeated!")
 
     def run_battle(self):
-        logger = Logger()
+        logger = Logger(log_folder="Log/BossBattle")
         for character in self.team.team:
             logger.log(str(character))
         logger.log(str(self.boss))
@@ -90,7 +90,7 @@ class Battle:
         # Simulate 1000 battles
         wins = 0
         for _ in range(1000):
-            battle = Battle(team, boss)
+            battle = BossBattle(team, boss)
             win = battle.simulate_battle()
             if win:
                 wins += 1

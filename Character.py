@@ -10,7 +10,7 @@ class Character:
     CRITICAL_HIT_PROBABILITY = 0.1
     MIN_DAMAGE_THRESHOLD = 1
 
-    def __init__(self, id, element, hp, attack, defense, speed, strength, weakness, extra_points=0, xp=0, level=1):
+    def __init__(self, id, element, hp, attack, defense, speed, strength, weakness, extra_points=0, xp=0, level=1, team=None):
         self.id = id
         self.element = element
         self.hp = hp
@@ -24,9 +24,10 @@ class Character:
         self.weakness = weakness
         self.xp = xp
         self.level = level
+        self.team = team
 
     def __str__(self):
-        return f"({self.id}) {self.element} (Level {self.level}) - HP: {self.hp}, Attack: {self.attack}, Defense: {self.defense}, Speed: {self.speed} - XP: {self.xp} - Strength: {self.strength}, Weakness: {self.weakness} - Extra Points: {self.extra_points} - Battle HP: {self.battle_hp}"
+        return f"({self.id}) {self.element} (Level {self.level}) - HP: {self.hp}, Attack: {self.attack}, Defense: {self.defense}, Speed: {self.speed} - XP: {self.xp} - Strength: {self.strength}, Weakness: {self.weakness} - Extra Points: {self.extra_points} - Battle HP: {self.battle_hp}, Team: {self.team}"
 
     def update_remaining_speed(self):
         if self.remaining_speed < self.SPEED_NEEDED and self.remaining_speed > 0:

@@ -5,8 +5,8 @@ from Character import Character
 class Player(Character):
     SPEED_NEEDED = 5
 
-    def __init__(self, id, element, hp, attack, defense, speed, strength, weakness, extra_points=0, xp=0, level=1):
-        super().__init__(id, element, hp, attack, defense, speed, strength, weakness, extra_points, xp, level)
+    def __init__(self, id, element, hp, attack, defense, speed, strength, weakness, extra_points=0, xp=0, level=1, team=None):
+        super().__init__(id, element, hp, attack, defense, speed, strength, weakness, extra_points, xp, level, team)
     
     def __str__(self):
         return super().__str__()
