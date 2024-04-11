@@ -1,0 +1,815 @@
+2024-03-28 11:42:22,866 - INFO - (0) WATER (Level 2) - HP: 12, Attack: 11, Defense: 9, Speed: 8 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 14
+2024-03-28 11:42:22,866 - INFO - (1) FIRE (Level 3) - HP: 11, Attack: 14, Defense: 9, Speed: 13 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 14
+2024-03-28 11:42:22,866 - INFO - (2) AIR (Level 4) - HP: 11, Attack: 13, Defense: 15, Speed: 16 - XP: 50 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 15
+2024-03-28 11:42:22,866 - INFO - (3) EARTH (Level 3) - HP: 13, Attack: 9, Defense: 14, Speed: 11 - XP: 50 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 17
+2024-03-28 11:42:22,866 - INFO - (1) Boss - AIR (Level 5) - HP: 65, Attack: 20, Defense: 20, Speed: 20 - XP: 0 - Strength: EARTH, Weakness: FIRE, Battle HP: 97
+2024-03-28 11:42:22,866 - INFO - Boss's turn (AIR) - REMAINING SPEED 20.
+2024-03-28 11:42:22,866 - INFO - Boss AIR attacked WATER player.
+2024-03-28 11:42:22,866 - INFO - Boss-AIR player attacked Player-WATER for 13 damage.
+2024-03-28 11:42:22,866 - INFO - Player-WATER player has 1 HP remaining.
+2024-03-28 11:42:22,866 - INFO - Player's turn (AIR) - REMAINING SPEED 16.
+2024-03-28 11:42:22,866 - INFO - Player-AIR player attacked Boss-AIR for 5 damage.
+2024-03-28 11:42:22,866 - INFO - Boss-AIR player has 92 HP remaining.
+2024-03-28 11:42:22,866 - INFO - Player's turn (FIRE) - REMAINING SPEED 13.
+2024-03-28 11:42:22,866 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:42:22,866 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:42:22,866 - INFO - Boss-AIR player has 84 HP remaining.
+2024-03-28 11:42:22,866 - INFO - Player's turn (EARTH) - REMAINING SPEED 11.
+2024-03-28 11:42:22,866 - INFO - Critical hit! EARTH player dealt more damage.
+2024-03-28 11:42:22,866 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-03-28 11:42:22,866 - INFO - Player-EARTH player attacked Boss-AIR for 2 damage.
+2024-03-28 11:42:22,866 - INFO - Boss-AIR player has 82 HP remaining.
+2024-03-28 11:42:22,866 - INFO - Player's turn (WATER) - REMAINING SPEED 8.
+2024-03-28 11:42:22,866 - INFO - Player-WATER player attacked Boss-AIR for 3 damage.
+2024-03-28 11:42:22,866 - INFO - Boss-AIR player has 79 HP remaining.
+2024-03-28 11:42:22,866 - INFO - Boss's turn (AIR) - REMAINING SPEED 15.
+2024-03-28 11:42:22,866 - INFO - Boss AIR attacked FIRE player.
+2024-03-28 11:42:22,866 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-03-28 11:42:22,866 - INFO - Boss-AIR player attacked Player-FIRE for 6 damage.
+2024-03-28 11:42:22,866 - INFO - Player-FIRE player has 8 HP remaining.
+2024-03-28 11:42:22,866 - INFO - Player's turn (AIR) - REMAINING SPEED 11.
+2024-03-28 11:42:22,867 - INFO - Player-AIR player attacked Boss-AIR for 5 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 74 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Player's turn (FIRE) - REMAINING SPEED 8.
+2024-03-28 11:42:22,867 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:42:22,867 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 66 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Player's turn (EARTH) - REMAINING SPEED 6.
+2024-03-28 11:42:22,867 - INFO - Critical hit! EARTH player dealt more damage.
+2024-03-28 11:42:22,867 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-03-28 11:42:22,867 - INFO - Player-EARTH player attacked Boss-AIR for 2 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 64 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Player's turn (WATER) - REMAINING SPEED 3.
+2024-03-28 11:42:22,867 - INFO - Player-WATER player attacked Boss-AIR for 3 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 61 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Boss's turn (AIR) - REMAINING SPEED 10.
+2024-03-28 11:42:22,867 - INFO - Boss AIR attacked WATER player.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player attacked Player-WATER for 13 damage.
+2024-03-28 11:42:22,867 - INFO - Player-WATER player has -12 HP remaining.
+2024-03-28 11:42:22,867 - INFO - WATER player has been defeated!
+2024-03-28 11:42:22,867 - INFO - Player's turn (AIR) - REMAINING SPEED 6.
+2024-03-28 11:42:22,867 - INFO - Player-AIR player attacked Boss-AIR for 4 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 57 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Player's turn (FIRE) - REMAINING SPEED 3.
+2024-03-28 11:42:22,867 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:42:22,867 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 49 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Player's turn (EARTH) - REMAINING SPEED 1.
+2024-03-28 11:42:22,867 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-03-28 11:42:22,867 - INFO - Player-EARTH player attacked Boss-AIR for 1 damage.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player has 48 HP remaining.
+2024-03-28 11:42:22,867 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-03-28 11:42:22,867 - INFO - Boss's turn (AIR) - REMAINING SPEED 5.
+2024-03-28 11:42:22,867 - INFO - Boss AIR attacked FIRE player.
+2024-03-28 11:42:22,867 - INFO - Critical hit! AIR player dealt more damage.
+2024-03-28 11:42:22,867 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-03-28 11:42:22,867 - INFO - Boss-AIR player attacked Player-FIRE for 10 damage.
+2024-03-28 11:42:22,867 - INFO - Player-FIRE player has -2 HP remaining.
+2024-03-28 11:42:22,868 - INFO - FIRE player has been defeated!
+2024-03-28 11:42:22,868 - INFO - Player's turn (AIR) - REMAINING SPEED 1.
+2024-03-28 11:42:22,868 - INFO - Player-AIR player attacked Boss-AIR for 5 damage.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player has 43 HP remaining.
+2024-03-28 11:42:22,868 - INFO - Player's turn (FIRE) - REMAINING SPEED 0.
+2024-03-28 11:42:22,868 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-03-28 11:42:22,868 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-03-28 11:42:22,868 - INFO - Player-EARTH player attacked Boss-AIR for 1 damage.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player has 42 HP remaining.
+2024-03-28 11:42:22,868 - INFO - Player's turn (EARTH) - REMAINING SPEED 11.
+2024-03-28 11:42:22,868 - INFO - Critical hit! EARTH player dealt more damage.
+2024-03-28 11:42:22,868 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-03-28 11:42:22,868 - INFO - Player-EARTH player attacked Boss-AIR for 2 damage.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player has 40 HP remaining.
+2024-03-28 11:42:22,868 - INFO - Player's turn (AIR) - REMAINING SPEED 0.
+2024-03-28 11:42:22,868 - INFO - Player-AIR player attacked Boss-AIR for 5 damage.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player has 35 HP remaining.
+2024-03-28 11:42:22,868 - INFO - Boss's turn (AIR) - REMAINING SPEED 0.
+2024-03-28 11:42:22,868 - INFO - Boss AIR attacked AIR player.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player attacked Player-AIR for 10 damage.
+2024-03-28 11:42:22,868 - INFO - Player-AIR player has 5 HP remaining.
+2024-03-28 11:42:22,868 - INFO - Boss's turn (AIR) - REMAINING SPEED 20.
+2024-03-28 11:42:22,868 - INFO - Boss AIR attacked AIR player.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player attacked Player-AIR for 11 damage.
+2024-03-28 11:42:22,868 - INFO - Player-AIR player has -6 HP remaining.
+2024-03-28 11:42:22,868 - INFO - AIR player has been defeated!
+2024-03-28 11:42:22,868 - INFO - Player's turn (AIR) - REMAINING SPEED 16.
+2024-03-28 11:42:22,868 - INFO - Player's turn (EARTH) - REMAINING SPEED 6.
+2024-03-28 11:42:22,868 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-03-28 11:42:22,868 - INFO - Player-EARTH player attacked Boss-AIR for 1 damage.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player has 34 HP remaining.
+2024-03-28 11:42:22,868 - INFO - Boss's turn (AIR) - REMAINING SPEED 15.
+2024-03-28 11:42:22,868 - INFO - Boss AIR attacked EARTH player.
+2024-03-28 11:42:22,868 - INFO - AIR player has the advantage over EARTH player.
+2024-03-28 11:42:22,868 - INFO - Boss-AIR player attacked Player-EARTH for 17 damage.
+2024-03-28 11:42:22,868 - INFO - Player-EARTH player has 0 HP remaining.
+2024-03-28 11:42:22,868 - INFO - EARTH player has been defeated!
+2024-03-28 11:42:22,868 - INFO - All players have been defeated! Game over!
+2024-03-28 11:42:22,869 - INFO - Battle has finished.
+2024-03-28 11:42:22,869 - INFO - ------------------------------------------------------------
+2024-03-28 11:42:22,869 - INFO - Team current status:
+2024-03-28 11:42:22,869 - INFO - (0) WATER (Level 2) - HP: 12, Attack: 11, Defense: 9, Speed: 8 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -12
+2024-03-28 11:42:22,869 - INFO - (1) FIRE (Level 3) - HP: 11, Attack: 14, Defense: 9, Speed: 13 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -2
+2024-03-28 11:42:22,869 - INFO - (2) AIR (Level 4) - HP: 11, Attack: 13, Defense: 15, Speed: 16 - XP: 50 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -6
+2024-03-28 11:42:22,869 - INFO - (3) EARTH (Level 3) - HP: 13, Attack: 9, Defense: 14, Speed: 11 - XP: 50 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 0
+2024-03-28 11:42:22,869 - INFO - ------------------------------------------------------------
+2024-03-28 11:48:11,806 - INFO - (0) WATER (Level 4) - HP: 16, Attack: 15, Defense: 12, Speed: 11 - XP: 200 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 22
+2024-03-28 11:48:11,807 - INFO - (1) FIRE (Level 3) - HP: 11, Attack: 14, Defense: 9, Speed: 13 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 14
+2024-03-28 11:48:11,807 - INFO - (2) AIR (Level 4) - HP: 11, Attack: 13, Defense: 15, Speed: 16 - XP: 50 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 15
+2024-03-28 11:48:11,807 - INFO - (3) EARTH (Level 3) - HP: 13, Attack: 10, Defense: 14, Speed: 11 - XP: 50 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 17
+2024-03-28 11:48:11,807 - INFO - (1) Boss - AIR (Level 5) - HP: 65, Attack: 20, Defense: 20, Speed: 20 - XP: 0 - Strength: EARTH, Weakness: FIRE, Battle HP: 97
+2024-03-28 11:48:11,807 - INFO - Boss's turn (AIR) - REMAINING SPEED 20.
+2024-03-28 11:48:11,807 - INFO - Boss AIR attacked EARTH player.
+2024-03-28 11:48:11,807 - INFO - Critical hit! AIR player dealt more damage.
+2024-03-28 11:48:11,807 - INFO - AIR player has the advantage over EARTH player.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player attacked Player-EARTH for 25 damage.
+2024-03-28 11:48:11,807 - INFO - Player-EARTH player has -8 HP remaining.
+2024-03-28 11:48:11,807 - INFO - EARTH player has been defeated!
+2024-03-28 11:48:11,807 - INFO - Player's turn (AIR) - REMAINING SPEED 16.
+2024-03-28 11:48:11,807 - INFO - Player-AIR player attacked Boss-AIR for 4 damage.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player has 93 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (FIRE) - REMAINING SPEED 13.
+2024-03-28 11:48:11,807 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:48:11,807 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player has 85 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (WATER) - REMAINING SPEED 11.
+2024-03-28 11:48:11,807 - INFO - Player-WATER player attacked Boss-AIR for 6 damage.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player has 79 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (EARTH) - REMAINING SPEED 11.
+2024-03-28 11:48:11,807 - INFO - Boss's turn (AIR) - REMAINING SPEED 15.
+2024-03-28 11:48:11,807 - INFO - Boss AIR attacked AIR player.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player attacked Player-AIR for 10 damage.
+2024-03-28 11:48:11,807 - INFO - Player-AIR player has 5 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (AIR) - REMAINING SPEED 11.
+2024-03-28 11:48:11,807 - INFO - Player-AIR player attacked Boss-AIR for 5 damage.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player has 74 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (FIRE) - REMAINING SPEED 8.
+2024-03-28 11:48:11,807 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:48:11,807 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player has 66 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (WATER) - REMAINING SPEED 6.
+2024-03-28 11:48:11,807 - INFO - Player-WATER player attacked Boss-AIR for 6 damage.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player has 60 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Boss's turn (AIR) - REMAINING SPEED 10.
+2024-03-28 11:48:11,807 - INFO - Boss AIR attacked WATER player.
+2024-03-28 11:48:11,807 - INFO - Boss-AIR player attacked Player-WATER for 12 damage.
+2024-03-28 11:48:11,807 - INFO - Player-WATER player has 10 HP remaining.
+2024-03-28 11:48:11,807 - INFO - Player's turn (AIR) - REMAINING SPEED 6.
+2024-03-28 11:48:11,807 - INFO - Critical hit! AIR player dealt more damage.
+2024-03-28 11:48:11,808 - INFO - Player-AIR player attacked Boss-AIR for 7 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 53 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Player's turn (FIRE) - REMAINING SPEED 3.
+2024-03-28 11:48:11,808 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:48:11,808 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 45 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Player's turn (WATER) - REMAINING SPEED 1.
+2024-03-28 11:48:11,808 - INFO - Player-WATER player attacked Boss-AIR for 6 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 39 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Boss's turn (AIR) - REMAINING SPEED 5.
+2024-03-28 11:48:11,808 - INFO - Boss AIR attacked AIR player.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player attacked Player-AIR for 11 damage.
+2024-03-28 11:48:11,808 - INFO - Player-AIR player has -6 HP remaining.
+2024-03-28 11:48:11,808 - INFO - AIR player has been defeated!
+2024-03-28 11:48:11,808 - INFO - Player's turn (AIR) - REMAINING SPEED 1.
+2024-03-28 11:48:11,808 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-03-28 11:48:11,808 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 11:48:11,808 - INFO - Player-WATER player attacked Boss-AIR for 9 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 30 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Player's turn (FIRE) - REMAINING SPEED 0.
+2024-03-28 11:48:11,808 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:48:11,808 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 22 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Player's turn (FIRE) - REMAINING SPEED 13.
+2024-03-28 11:48:11,808 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:48:11,808 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 14 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Player's turn (WATER) - REMAINING SPEED 11.
+2024-03-28 11:48:11,808 - INFO - Player-WATER player attacked Boss-AIR for 6 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 8 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Boss's turn (AIR) - REMAINING SPEED 0.
+2024-03-28 11:48:11,808 - INFO - Boss AIR attacked WATER player.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player attacked Player-WATER for 12 damage.
+2024-03-28 11:48:11,808 - INFO - Player-WATER player has -2 HP remaining.
+2024-03-28 11:48:11,808 - INFO - WATER player has been defeated!
+2024-03-28 11:48:11,808 - INFO - Boss's turn (AIR) - REMAINING SPEED 20.
+2024-03-28 11:48:11,808 - INFO - Boss AIR attacked FIRE player.
+2024-03-28 11:48:11,808 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player attacked Player-FIRE for 6 damage.
+2024-03-28 11:48:11,808 - INFO - Player-FIRE player has 8 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Player's turn (FIRE) - REMAINING SPEED 8.
+2024-03-28 11:48:11,808 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 11:48:11,808 - INFO - Player-FIRE player attacked Boss-AIR for 8 damage.
+2024-03-28 11:48:11,808 - INFO - Boss-AIR player has 0 HP remaining.
+2024-03-28 11:48:11,808 - INFO - Boss (AIR) player has been defeated!
+2024-03-28 11:48:11,808 - INFO - Boss has been defeated! Congratulations!
+2024-03-28 11:48:11,808 - INFO - Battle has finished.
+2024-03-28 11:48:11,808 - INFO - ------------------------------------------------------------
+2024-03-28 11:48:11,808 - INFO - Team current status:
+2024-03-28 11:48:11,808 - INFO - (0) WATER (Level 4) - HP: 16, Attack: 15, Defense: 12, Speed: 11 - XP: 200 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -2
+2024-03-28 11:48:11,808 - INFO - (1) FIRE (Level 3) - HP: 11, Attack: 14, Defense: 9, Speed: 13 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8
+2024-03-28 11:48:11,808 - INFO - (2) AIR (Level 4) - HP: 11, Attack: 13, Defense: 15, Speed: 16 - XP: 50 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -6
+2024-03-28 11:48:11,808 - INFO - (3) EARTH (Level 3) - HP: 13, Attack: 10, Defense: 14, Speed: 11 - XP: 50 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: -8
+2024-03-28 11:48:11,808 - INFO - ------------------------------------------------------------
+2024-03-28 11:55:33,530 - INFO - (0) WATER (Level 6) - HP: 21, Attack: 19, Defense: 16, Speed: 15 - XP: 300 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 34
+2024-03-28 11:55:33,530 - INFO - (1) FIRE (Level 6) - HP: 17, Attack: 20, Defense: 15, Speed: 20 - XP: 50 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 28
+2024-03-28 11:55:33,530 - INFO - (2) AIR (Level 6) - HP: 16, Attack: 20, Defense: 19, Speed: 21 - XP: 50 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 26
+2024-03-28 11:55:33,530 - INFO - (3) EARTH (Level 6) - HP: 20, Attack: 17, Defense: 21, Speed: 17 - XP: 50 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 32
+2024-03-28 11:55:33,530 - INFO - (2) Boss - WATER (Level 10) - HP: 200, Attack: 40, Defense: 40, Speed: 40 - XP: 0 - Strength: FIRE, Weakness: EARTH, Battle HP: 416
+2024-03-28 11:55:33,530 - INFO - Boss's turn (WATER) - REMAINING SPEED 40.
+2024-03-28 11:55:33,530 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 11:55:33,530 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 11:55:33,530 - INFO - Boss-WATER player attacked Player-EARTH for 12 damage.
+2024-03-28 11:55:33,530 - INFO - Player-EARTH player has 20 HP remaining.
+2024-03-28 11:55:33,530 - INFO - Player's turn (AIR) - REMAINING SPEED 21.
+2024-03-28 11:55:33,530 - INFO - Player-AIR player attacked Boss-WATER for 6 damage.
+2024-03-28 11:55:33,530 - INFO - Boss-WATER player has 410 HP remaining.
+2024-03-28 11:55:33,530 - INFO - Player's turn (FIRE) - REMAINING SPEED 20.
+2024-03-28 11:55:33,530 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 11:55:33,530 - INFO - Player-FIRE player attacked Boss-WATER for 3 damage.
+2024-03-28 11:55:33,530 - INFO - Boss-WATER player has 407 HP remaining.
+2024-03-28 11:55:33,530 - INFO - Player's turn (EARTH) - REMAINING SPEED 17.
+2024-03-28 11:55:33,530 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:55:33,530 - INFO - Player-EARTH player attacked Boss-WATER for 7 damage.
+2024-03-28 11:55:33,530 - INFO - Boss-WATER player has 400 HP remaining.
+2024-03-28 11:55:33,530 - INFO - Player's turn (WATER) - REMAINING SPEED 15.
+2024-03-28 11:55:33,530 - INFO - Player-WATER player attacked Boss-WATER for 5 damage.
+2024-03-28 11:55:33,530 - INFO - Boss-WATER player has 395 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Boss's turn (WATER) - REMAINING SPEED 35.
+2024-03-28 11:55:33,531 - INFO - Boss WATER attacked FIRE player.
+2024-03-28 11:55:33,531 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player attacked Player-FIRE for 41 damage.
+2024-03-28 11:55:33,531 - INFO - Player-FIRE player has -13 HP remaining.
+2024-03-28 11:55:33,531 - INFO - FIRE player has been defeated!
+2024-03-28 11:55:33,531 - INFO - Player's turn (AIR) - REMAINING SPEED 16.
+2024-03-28 11:55:33,531 - INFO - Player-AIR player attacked Boss-WATER for 6 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 389 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (FIRE) - REMAINING SPEED 15.
+2024-03-28 11:55:33,531 - INFO - Player's turn (EARTH) - REMAINING SPEED 12.
+2024-03-28 11:55:33,531 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:55:33,531 - INFO - Player-EARTH player attacked Boss-WATER for 7 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 382 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (WATER) - REMAINING SPEED 10.
+2024-03-28 11:55:33,531 - INFO - Player-WATER player attacked Boss-WATER for 6 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 376 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Boss's turn (WATER) - REMAINING SPEED 30.
+2024-03-28 11:55:33,531 - INFO - Boss WATER attacked WATER player.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player attacked Player-WATER for 28 damage.
+2024-03-28 11:55:33,531 - INFO - Player-WATER player has 6 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (AIR) - REMAINING SPEED 11.
+2024-03-28 11:55:33,531 - INFO - Player-AIR player attacked Boss-WATER for 6 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 370 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (EARTH) - REMAINING SPEED 7.
+2024-03-28 11:55:33,531 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:55:33,531 - INFO - Player-EARTH player attacked Boss-WATER for 7 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 363 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (WATER) - REMAINING SPEED 5.
+2024-03-28 11:55:33,531 - INFO - Player-WATER player attacked Boss-WATER for 5 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 358 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Boss's turn (WATER) - REMAINING SPEED 25.
+2024-03-28 11:55:33,531 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 11:55:33,531 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player attacked Player-EARTH for 12 damage.
+2024-03-28 11:55:33,531 - INFO - Player-EARTH player has 8 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (AIR) - REMAINING SPEED 6.
+2024-03-28 11:55:33,531 - INFO - Player-AIR player attacked Boss-WATER for 6 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 352 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (EARTH) - REMAINING SPEED 2.
+2024-03-28 11:55:33,531 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:55:33,531 - INFO - Player-EARTH player attacked Boss-WATER for 7 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 345 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-03-28 11:55:33,531 - INFO - Player-WATER player attacked Boss-WATER for 5 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 340 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Boss's turn (WATER) - REMAINING SPEED 20.
+2024-03-28 11:55:33,531 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 11:55:33,531 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 11:55:33,531 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player attacked Player-EARTH for 19 damage.
+2024-03-28 11:55:33,531 - INFO - Player-EARTH player has -11 HP remaining.
+2024-03-28 11:55:33,531 - INFO - EARTH player has been defeated!
+2024-03-28 11:55:33,531 - INFO - Player's turn (WATER) - REMAINING SPEED 15.
+2024-03-28 11:55:33,531 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 11:55:33,531 - INFO - Player-WATER player attacked Boss-WATER for 9 damage.
+2024-03-28 11:55:33,531 - INFO - Boss-WATER player has 331 HP remaining.
+2024-03-28 11:55:33,531 - INFO - Player's turn (AIR) - REMAINING SPEED 1.
+2024-03-28 11:55:33,532 - INFO - Player-AIR player attacked Boss-WATER for 6 damage.
+2024-03-28 11:55:33,532 - INFO - Boss-WATER player has 325 HP remaining.
+2024-03-28 11:55:33,532 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-03-28 11:55:33,532 - INFO - Boss's turn (WATER) - REMAINING SPEED 15.
+2024-03-28 11:55:33,532 - INFO - Boss WATER attacked AIR player.
+2024-03-28 11:55:33,532 - INFO - Boss-WATER player attacked Player-AIR for 27 damage.
+2024-03-28 11:55:33,532 - INFO - Player-AIR player has -1 HP remaining.
+2024-03-28 11:55:33,532 - INFO - AIR player has been defeated!
+2024-03-28 11:55:33,532 - INFO - Player's turn (WATER) - REMAINING SPEED 10.
+2024-03-28 11:55:33,532 - INFO - Player-WATER player attacked Boss-WATER for 5 damage.
+2024-03-28 11:55:33,532 - INFO - Boss-WATER player has 320 HP remaining.
+2024-03-28 11:55:33,532 - INFO - Player's turn (AIR) - REMAINING SPEED 0.
+2024-03-28 11:55:33,532 - INFO - Boss's turn (WATER) - REMAINING SPEED 10.
+2024-03-28 11:55:33,532 - INFO - Boss WATER attacked WATER player.
+2024-03-28 11:55:33,532 - INFO - Boss-WATER player attacked Player-WATER for 28 damage.
+2024-03-28 11:55:33,532 - INFO - Player-WATER player has -22 HP remaining.
+2024-03-28 11:55:33,532 - INFO - WATER player has been defeated!
+2024-03-28 11:55:33,532 - INFO - All players have been defeated! Game over!
+2024-03-28 11:55:33,532 - INFO - Battle has finished.
+2024-03-28 11:55:33,532 - INFO - ------------------------------------------------------------
+2024-03-28 11:55:33,532 - INFO - Team current status:
+2024-03-28 11:55:33,532 - INFO - (0) WATER (Level 6) - HP: 21, Attack: 19, Defense: 16, Speed: 15 - XP: 300 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -22
+2024-03-28 11:55:33,532 - INFO - (1) FIRE (Level 6) - HP: 17, Attack: 20, Defense: 15, Speed: 20 - XP: 50 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -13
+2024-03-28 11:55:33,532 - INFO - (2) AIR (Level 6) - HP: 16, Attack: 20, Defense: 19, Speed: 21 - XP: 50 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -1
+2024-03-28 11:55:33,532 - INFO - (3) EARTH (Level 6) - HP: 20, Attack: 17, Defense: 21, Speed: 17 - XP: 50 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: -11
+2024-03-28 11:55:33,532 - INFO - ------------------------------------------------------------
+2024-03-28 11:57:18,626 - INFO - (0) WATER (Level 8) - HP: 27, Attack: 25, Defense: 20, Speed: 19 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 50
+2024-03-28 11:57:18,626 - INFO - (1) FIRE (Level 8) - HP: 22, Attack: 26, Defense: 19, Speed: 26 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 41
+2024-03-28 11:57:18,626 - INFO - (2) AIR (Level 7) - HP: 18, Attack: 23, Defense: 22, Speed: 24 - XP: 200 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 31
+2024-03-28 11:57:18,626 - INFO - (3) EARTH (Level 7) - HP: 23, Attack: 19, Defense: 24, Speed: 19 - XP: 200 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 40
+2024-03-28 11:57:18,626 - INFO - (2) Boss - WATER (Level 10) - HP: 200, Attack: 40, Defense: 40, Speed: 40 - XP: 0 - Strength: FIRE, Weakness: EARTH, Battle HP: 416
+2024-03-28 11:57:18,626 - INFO - Boss's turn (WATER) - REMAINING SPEED 40.
+2024-03-28 11:57:18,626 - INFO - Boss WATER attacked WATER player.
+2024-03-28 11:57:18,626 - INFO - Boss-WATER player attacked Player-WATER for 25 damage.
+2024-03-28 11:57:18,626 - INFO - Player-WATER player has 25 HP remaining.
+2024-03-28 11:57:18,626 - INFO - Player's turn (FIRE) - REMAINING SPEED 26.
+2024-03-28 11:57:18,626 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 11:57:18,627 - INFO - Player-FIRE player attacked Boss-WATER for 5 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 411 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (AIR) - REMAINING SPEED 24.
+2024-03-28 11:57:18,627 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 403 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (WATER) - REMAINING SPEED 19.
+2024-03-28 11:57:18,627 - INFO - Player-WATER player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 394 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (EARTH) - REMAINING SPEED 19.
+2024-03-28 11:57:18,627 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,627 - INFO - Player-EARTH player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 385 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Boss's turn (WATER) - REMAINING SPEED 35.
+2024-03-28 11:57:18,627 - INFO - Boss WATER attacked FIRE player.
+2024-03-28 11:57:18,627 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player attacked Player-FIRE for 39 damage.
+2024-03-28 11:57:18,627 - INFO - Player-FIRE player has 2 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (FIRE) - REMAINING SPEED 21.
+2024-03-28 11:57:18,627 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 11:57:18,627 - INFO - Player-FIRE player attacked Boss-WATER for 5 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 380 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (AIR) - REMAINING SPEED 19.
+2024-03-28 11:57:18,627 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 372 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (WATER) - REMAINING SPEED 14.
+2024-03-28 11:57:18,627 - INFO - Player-WATER player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 363 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (EARTH) - REMAINING SPEED 14.
+2024-03-28 11:57:18,627 - INFO - Critical hit! EARTH player dealt more damage.
+2024-03-28 11:57:18,627 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,627 - INFO - Player-EARTH player attacked Boss-WATER for 13 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 350 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Boss's turn (WATER) - REMAINING SPEED 30.
+2024-03-28 11:57:18,627 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 11:57:18,627 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player attacked Player-EARTH for 11 damage.
+2024-03-28 11:57:18,627 - INFO - Player-EARTH player has 29 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (FIRE) - REMAINING SPEED 16.
+2024-03-28 11:57:18,627 - INFO - Critical hit! FIRE player dealt more damage.
+2024-03-28 11:57:18,627 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 11:57:18,627 - INFO - Player-FIRE player attacked Boss-WATER for 7 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 343 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (AIR) - REMAINING SPEED 14.
+2024-03-28 11:57:18,627 - INFO - Player-AIR player attacked Boss-WATER for 7 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 336 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (WATER) - REMAINING SPEED 9.
+2024-03-28 11:57:18,627 - INFO - Player-WATER player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 327 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Player's turn (EARTH) - REMAINING SPEED 9.
+2024-03-28 11:57:18,627 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,627 - INFO - Player-EARTH player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player has 318 HP remaining.
+2024-03-28 11:57:18,627 - INFO - Boss's turn (WATER) - REMAINING SPEED 25.
+2024-03-28 11:57:18,627 - INFO - Boss WATER attacked WATER player.
+2024-03-28 11:57:18,627 - INFO - Boss-WATER player attacked Player-WATER for 25 damage.
+2024-03-28 11:57:18,628 - INFO - Player-WATER player has 0 HP remaining.
+2024-03-28 11:57:18,628 - INFO - WATER player has been defeated!
+2024-03-28 11:57:18,628 - INFO - Player's turn (FIRE) - REMAINING SPEED 11.
+2024-03-28 11:57:18,628 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 11:57:18,628 - INFO - Player-FIRE player attacked Boss-WATER for 5 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 313 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (AIR) - REMAINING SPEED 9.
+2024-03-28 11:57:18,628 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 305 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (WATER) - REMAINING SPEED 4.
+2024-03-28 11:57:18,628 - INFO - Player's turn (EARTH) - REMAINING SPEED 4.
+2024-03-28 11:57:18,628 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,628 - INFO - Player-EARTH player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 296 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Boss's turn (WATER) - REMAINING SPEED 20.
+2024-03-28 11:57:18,628 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 11:57:18,628 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player attacked Player-EARTH for 12 damage.
+2024-03-28 11:57:18,628 - INFO - Player-EARTH player has 17 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (FIRE) - REMAINING SPEED 6.
+2024-03-28 11:57:18,628 - INFO - Critical hit! FIRE player dealt more damage.
+2024-03-28 11:57:18,628 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 11:57:18,628 - INFO - Player-FIRE player attacked Boss-WATER for 7 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 289 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (AIR) - REMAINING SPEED 4.
+2024-03-28 11:57:18,628 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 281 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-03-28 11:57:18,628 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,628 - INFO - Player-EARTH player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 273 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (EARTH) - REMAINING SPEED 19.
+2024-03-28 11:57:18,628 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,628 - INFO - Player-EARTH player attacked Boss-WATER for 9 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 264 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Boss's turn (WATER) - REMAINING SPEED 15.
+2024-03-28 11:57:18,628 - INFO - Boss WATER attacked FIRE player.
+2024-03-28 11:57:18,628 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player attacked Player-FIRE for 38 damage.
+2024-03-28 11:57:18,628 - INFO - Player-FIRE player has -36 HP remaining.
+2024-03-28 11:57:18,628 - INFO - FIRE player has been defeated!
+2024-03-28 11:57:18,628 - INFO - Player's turn (FIRE) - REMAINING SPEED 1.
+2024-03-28 11:57:18,628 - INFO - Player's turn (AIR) - REMAINING SPEED 0.
+2024-03-28 11:57:18,628 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 256 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (AIR) - REMAINING SPEED 24.
+2024-03-28 11:57:18,628 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 248 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Player's turn (EARTH) - REMAINING SPEED 14.
+2024-03-28 11:57:18,628 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,628 - INFO - Player-EARTH player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,628 - INFO - Boss-WATER player has 240 HP remaining.
+2024-03-28 11:57:18,628 - INFO - Boss's turn (WATER) - REMAINING SPEED 10.
+2024-03-28 11:57:18,629 - INFO - Boss WATER attacked AIR player.
+2024-03-28 11:57:18,629 - INFO - Boss-WATER player attacked Player-AIR for 24 damage.
+2024-03-28 11:57:18,629 - INFO - Player-AIR player has 7 HP remaining.
+2024-03-28 11:57:18,629 - INFO - Player's turn (AIR) - REMAINING SPEED 19.
+2024-03-28 11:57:18,629 - INFO - Player-AIR player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,629 - INFO - Boss-WATER player has 232 HP remaining.
+2024-03-28 11:57:18,629 - INFO - Player's turn (EARTH) - REMAINING SPEED 9.
+2024-03-28 11:57:18,629 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 11:57:18,629 - INFO - Player-EARTH player attacked Boss-WATER for 8 damage.
+2024-03-28 11:57:18,629 - INFO - Boss-WATER player has 224 HP remaining.
+2024-03-28 11:57:18,629 - INFO - Boss's turn (WATER) - REMAINING SPEED 5.
+2024-03-28 11:57:18,629 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 11:57:18,629 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 11:57:18,629 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 11:57:18,629 - INFO - Boss-WATER player attacked Player-EARTH for 18 damage.
+2024-03-28 11:57:18,629 - INFO - Player-EARTH player has -1 HP remaining.
+2024-03-28 11:57:18,629 - INFO - EARTH player has been defeated!
+2024-03-28 11:57:18,629 - INFO - Player's turn (AIR) - REMAINING SPEED 14.
+2024-03-28 11:57:18,629 - INFO - Critical hit! AIR player dealt more damage.
+2024-03-28 11:57:18,629 - INFO - Player-AIR player attacked Boss-WATER for 12 damage.
+2024-03-28 11:57:18,629 - INFO - Boss-WATER player has 212 HP remaining.
+2024-03-28 11:57:18,629 - INFO - Boss's turn (WATER) - REMAINING SPEED 0.
+2024-03-28 11:57:18,629 - INFO - Boss WATER attacked AIR player.
+2024-03-28 11:57:18,629 - INFO - Boss-WATER player attacked Player-AIR for 25 damage.
+2024-03-28 11:57:18,629 - INFO - Player-AIR player has -18 HP remaining.
+2024-03-28 11:57:18,629 - INFO - AIR player has been defeated!
+2024-03-28 11:57:18,629 - INFO - All players have been defeated! Game over!
+2024-03-28 11:57:18,629 - INFO - Battle has finished.
+2024-03-28 11:57:18,629 - INFO - ------------------------------------------------------------
+2024-03-28 11:57:18,629 - INFO - Team current status:
+2024-03-28 11:57:18,629 - INFO - (0) WATER (Level 8) - HP: 27, Attack: 25, Defense: 20, Speed: 19 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 0
+2024-03-28 11:57:18,629 - INFO - (1) FIRE (Level 8) - HP: 22, Attack: 26, Defense: 19, Speed: 26 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -36
+2024-03-28 11:57:18,629 - INFO - (2) AIR (Level 7) - HP: 18, Attack: 23, Defense: 22, Speed: 24 - XP: 200 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -18
+2024-03-28 11:57:18,629 - INFO - (3) EARTH (Level 7) - HP: 23, Attack: 19, Defense: 24, Speed: 19 - XP: 200 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: -1
+2024-03-28 11:57:18,629 - INFO - ------------------------------------------------------------
+2024-03-28 12:01:29,495 - INFO - (0) WATER (Level 9) - HP: 31, Attack: 28, Defense: 23, Speed: 26 - XP: 200 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 61
+2024-03-28 12:01:29,495 - INFO - (1) FIRE (Level 8) - HP: 22, Attack: 26, Defense: 19, Speed: 26 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 41
+2024-03-28 12:01:29,495 - INFO - (2) AIR (Level 8) - HP: 21, Attack: 26, Defense: 25, Speed: 27 - XP: 100 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 39
+2024-03-28 12:01:29,495 - INFO - (3) EARTH (Level 10) - HP: 33, Attack: 28, Defense: 35, Speed: 32 - XP: 250 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 69
+2024-03-28 12:01:29,495 - INFO - (2) Boss - WATER (Level 10) - HP: 200, Attack: 40, Defense: 40, Speed: 40 - XP: 0 - Strength: FIRE, Weakness: EARTH, Battle HP: 416
+2024-03-28 12:01:29,495 - INFO - Boss's turn (WATER) - REMAINING SPEED 40.
+2024-03-28 12:01:29,495 - INFO - Boss WATER attacked AIR player.
+2024-03-28 12:01:29,495 - INFO - Boss-WATER player attacked Player-AIR for 24 damage.
+2024-03-28 12:01:29,495 - INFO - Player-AIR player has 15 HP remaining.
+2024-03-28 12:01:29,495 - INFO - Player's turn (EARTH) - REMAINING SPEED 32.
+2024-03-28 12:01:29,496 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,496 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 400 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (AIR) - REMAINING SPEED 27.
+2024-03-28 12:01:29,496 - INFO - Player-AIR player attacked Boss-WATER for 9 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 391 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (WATER) - REMAINING SPEED 26.
+2024-03-28 12:01:29,496 - INFO - Player-WATER player attacked Boss-WATER for 11 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 380 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (FIRE) - REMAINING SPEED 26.
+2024-03-28 12:01:29,496 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,496 - INFO - Player-FIRE player attacked Boss-WATER for 4 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 376 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Boss's turn (WATER) - REMAINING SPEED 35.
+2024-03-28 12:01:29,496 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,496 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player attacked Player-EARTH for 10 damage.
+2024-03-28 12:01:29,496 - INFO - Player-EARTH player has 59 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (EARTH) - REMAINING SPEED 27.
+2024-03-28 12:01:29,496 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,496 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 360 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (AIR) - REMAINING SPEED 22.
+2024-03-28 12:01:29,496 - INFO - Player-AIR player attacked Boss-WATER for 9 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 351 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (WATER) - REMAINING SPEED 21.
+2024-03-28 12:01:29,496 - INFO - Player-WATER player attacked Boss-WATER for 10 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 341 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (FIRE) - REMAINING SPEED 21.
+2024-03-28 12:01:29,496 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,496 - INFO - Player-FIRE player attacked Boss-WATER for 5 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 336 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Boss's turn (WATER) - REMAINING SPEED 30.
+2024-03-28 12:01:29,496 - INFO - Boss WATER attacked WATER player.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player attacked Player-WATER for 25 damage.
+2024-03-28 12:01:29,496 - INFO - Player-WATER player has 36 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (EARTH) - REMAINING SPEED 22.
+2024-03-28 12:01:29,496 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,496 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 320 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (AIR) - REMAINING SPEED 17.
+2024-03-28 12:01:29,496 - INFO - Player-AIR player attacked Boss-WATER for 9 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 311 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (WATER) - REMAINING SPEED 16.
+2024-03-28 12:01:29,496 - INFO - Player-WATER player attacked Boss-WATER for 11 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 300 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Player's turn (FIRE) - REMAINING SPEED 16.
+2024-03-28 12:01:29,496 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,496 - INFO - Player-FIRE player attacked Boss-WATER for 4 damage.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player has 296 HP remaining.
+2024-03-28 12:01:29,496 - INFO - Boss's turn (WATER) - REMAINING SPEED 25.
+2024-03-28 12:01:29,496 - INFO - Boss WATER attacked WATER player.
+2024-03-28 12:01:29,496 - INFO - Boss-WATER player attacked Player-WATER for 24 damage.
+2024-03-28 12:01:29,497 - INFO - Player-WATER player has 12 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (EARTH) - REMAINING SPEED 17.
+2024-03-28 12:01:29,497 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 280 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (AIR) - REMAINING SPEED 12.
+2024-03-28 12:01:29,497 - INFO - Player-AIR player attacked Boss-WATER for 9 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 271 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (WATER) - REMAINING SPEED 11.
+2024-03-28 12:01:29,497 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 12:01:29,497 - INFO - Player-WATER player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 255 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (FIRE) - REMAINING SPEED 11.
+2024-03-28 12:01:29,497 - INFO - Critical hit! FIRE player dealt more damage.
+2024-03-28 12:01:29,497 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-FIRE player attacked Boss-WATER for 7 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 248 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Boss's turn (WATER) - REMAINING SPEED 20.
+2024-03-28 12:01:29,497 - INFO - Boss WATER attacked AIR player.
+2024-03-28 12:01:29,497 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player attacked Player-AIR for 36 damage.
+2024-03-28 12:01:29,497 - INFO - Player-AIR player has -21 HP remaining.
+2024-03-28 12:01:29,497 - INFO - AIR player has been defeated!
+2024-03-28 12:01:29,497 - INFO - Player's turn (EARTH) - REMAINING SPEED 12.
+2024-03-28 12:01:29,497 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-EARTH player attacked Boss-WATER for 17 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 231 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (AIR) - REMAINING SPEED 7.
+2024-03-28 12:01:29,497 - INFO - Player's turn (WATER) - REMAINING SPEED 6.
+2024-03-28 12:01:29,497 - INFO - Player-WATER player attacked Boss-WATER for 11 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 220 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (FIRE) - REMAINING SPEED 6.
+2024-03-28 12:01:29,497 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-FIRE player attacked Boss-WATER for 4 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 216 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Boss's turn (WATER) - REMAINING SPEED 15.
+2024-03-28 12:01:29,497 - INFO - Boss WATER attacked WATER player.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player attacked Player-WATER for 23 damage.
+2024-03-28 12:01:29,497 - INFO - Player-WATER player has -11 HP remaining.
+2024-03-28 12:01:29,497 - INFO - WATER player has been defeated!
+2024-03-28 12:01:29,497 - INFO - Player's turn (EARTH) - REMAINING SPEED 7.
+2024-03-28 12:01:29,497 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 200 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (WATER) - REMAINING SPEED 1.
+2024-03-28 12:01:29,497 - INFO - Player's turn (FIRE) - REMAINING SPEED 1.
+2024-03-28 12:01:29,497 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-FIRE player attacked Boss-WATER for 4 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 196 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Boss's turn (WATER) - REMAINING SPEED 10.
+2024-03-28 12:01:29,497 - INFO - Boss WATER attacked FIRE player.
+2024-03-28 12:01:29,497 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player attacked Player-FIRE for 40 damage.
+2024-03-28 12:01:29,497 - INFO - Player-FIRE player has 1 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (EARTH) - REMAINING SPEED 2.
+2024-03-28 12:01:29,497 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,497 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,497 - INFO - Boss-WATER player has 180 HP remaining.
+2024-03-28 12:01:29,497 - INFO - Player's turn (FIRE) - REMAINING SPEED 0.
+2024-03-28 12:01:29,497 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-FIRE player attacked Boss-WATER for 5 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 175 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Player's turn (FIRE) - REMAINING SPEED 26.
+2024-03-28 12:01:29,498 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-FIRE player attacked Boss-WATER for 4 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 171 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Boss's turn (WATER) - REMAINING SPEED 5.
+2024-03-28 12:01:29,498 - INFO - Boss WATER attacked FIRE player.
+2024-03-28 12:01:29,498 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player attacked Player-FIRE for 38 damage.
+2024-03-28 12:01:29,498 - INFO - Player-FIRE player has -37 HP remaining.
+2024-03-28 12:01:29,498 - INFO - FIRE player has been defeated!
+2024-03-28 12:01:29,498 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-03-28 12:01:29,498 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player attacked Boss-WATER for 17 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 154 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Player's turn (EARTH) - REMAINING SPEED 32.
+2024-03-28 12:01:29,498 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 138 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Boss's turn (WATER) - REMAINING SPEED 0.
+2024-03-28 12:01:29,498 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,498 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player attacked Player-EARTH for 10 damage.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player has 49 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Boss's turn (WATER) - REMAINING SPEED 40.
+2024-03-28 12:01:29,498 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,498 - INFO - Critical hit! WATER player dealt more damage.
+2024-03-28 12:01:29,498 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player attacked Player-EARTH for 15 damage.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player has 34 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Player's turn (EARTH) - REMAINING SPEED 27.
+2024-03-28 12:01:29,498 - INFO - Critical hit! EARTH player dealt more damage.
+2024-03-28 12:01:29,498 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player attacked Boss-WATER for 25 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 113 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Boss's turn (WATER) - REMAINING SPEED 35.
+2024-03-28 12:01:29,498 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,498 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player attacked Player-EARTH for 10 damage.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player has 24 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Player's turn (EARTH) - REMAINING SPEED 22.
+2024-03-28 12:01:29,498 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player attacked Boss-WATER for 17 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 96 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Boss's turn (WATER) - REMAINING SPEED 30.
+2024-03-28 12:01:29,498 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,498 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player attacked Player-EARTH for 10 damage.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player has 14 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Player's turn (EARTH) - REMAINING SPEED 17.
+2024-03-28 12:01:29,498 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,498 - INFO - Player-EARTH player attacked Boss-WATER for 16 damage.
+2024-03-28 12:01:29,498 - INFO - Boss-WATER player has 80 HP remaining.
+2024-03-28 12:01:29,498 - INFO - Boss's turn (WATER) - REMAINING SPEED 25.
+2024-03-28 12:01:29,498 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,499 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,499 - INFO - Boss-WATER player attacked Player-EARTH for 10 damage.
+2024-03-28 12:01:29,499 - INFO - Player-EARTH player has 4 HP remaining.
+2024-03-28 12:01:29,499 - INFO - Player's turn (EARTH) - REMAINING SPEED 12.
+2024-03-28 12:01:29,499 - INFO - EARTH player has the advantage over WATER player.
+2024-03-28 12:01:29,499 - INFO - Player-EARTH player attacked Boss-WATER for 17 damage.
+2024-03-28 12:01:29,499 - INFO - Boss-WATER player has 63 HP remaining.
+2024-03-28 12:01:29,499 - INFO - Boss's turn (WATER) - REMAINING SPEED 20.
+2024-03-28 12:01:29,499 - INFO - Boss WATER attacked EARTH player.
+2024-03-28 12:01:29,499 - INFO - WATER player is at a disadvantage against EARTH player.
+2024-03-28 12:01:29,499 - INFO - Boss-WATER player attacked Player-EARTH for 10 damage.
+2024-03-28 12:01:29,499 - INFO - Player-EARTH player has -6 HP remaining.
+2024-03-28 12:01:29,499 - INFO - EARTH player has been defeated!
+2024-03-28 12:01:29,499 - INFO - All players have been defeated! Game over!
+2024-03-28 12:01:29,499 - INFO - Battle has finished.
+2024-03-28 12:01:29,499 - INFO - ------------------------------------------------------------
+2024-03-28 12:01:29,499 - INFO - Team current status:
+2024-03-28 12:01:29,499 - INFO - (0) WATER (Level 9) - HP: 31, Attack: 28, Defense: 23, Speed: 26 - XP: 200 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -11
+2024-03-28 12:01:29,499 - INFO - (1) FIRE (Level 8) - HP: 22, Attack: 26, Defense: 19, Speed: 26 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -37
+2024-03-28 12:01:29,499 - INFO - (2) AIR (Level 8) - HP: 21, Attack: 26, Defense: 25, Speed: 27 - XP: 100 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -21
+2024-03-28 12:01:29,499 - INFO - (3) EARTH (Level 10) - HP: 33, Attack: 28, Defense: 35, Speed: 32 - XP: 250 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: -6
+2024-03-28 12:01:29,499 - INFO - ------------------------------------------------------------
+2024-03-28 12:43:13,811 - INFO - (0) WATER (Level 20) - HP: 115, Attack: 104, Defense: 83, Speed: 99 - XP: 200 - Strength: FIRE, Weakness: EARTH - Extra Points: 1 - Battle HP: 378
+2024-03-28 12:43:13,811 - INFO - (1) FIRE (Level 8) - HP: 22, Attack: 26, Defense: 19, Speed: 26 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 41
+2024-03-28 12:43:13,811 - INFO - (2) AIR (Level 8) - HP: 21, Attack: 26, Defense: 25, Speed: 27 - XP: 100 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 39
+2024-03-28 12:43:13,811 - INFO - (3) EARTH (Level 10) - HP: 33, Attack: 28, Defense: 35, Speed: 32 - XP: 250 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: 69
+2024-03-28 12:43:13,811 - INFO - (3) Boss - FIRE (Level 15) - HP: 400, Attack: 60, Defense: 60, Speed: 60 - XP: 0 - Strength: AIR, Weakness: WATER, Battle HP: 1072
+2024-03-28 12:43:13,811 - INFO - Player's turn (WATER) - REMAINING SPEED 99.
+2024-03-28 12:43:13,811 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,812 - INFO - Player-WATER player attacked Boss-FIRE for 95 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 977 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Boss's turn (FIRE) - REMAINING SPEED 60.
+2024-03-28 12:43:13,812 - INFO - Boss FIRE attacked FIRE player.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player attacked Player-FIRE for 44 damage.
+2024-03-28 12:43:13,812 - INFO - Player-FIRE player has -3 HP remaining.
+2024-03-28 12:43:13,812 - INFO - FIRE player has been defeated!
+2024-03-28 12:43:13,812 - INFO - Player's turn (EARTH) - REMAINING SPEED 32.
+2024-03-28 12:43:13,812 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 969 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Player's turn (AIR) - REMAINING SPEED 27.
+2024-03-28 12:43:13,812 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-03-28 12:43:13,812 - INFO - Player-AIR player attacked Boss-FIRE for 3 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 966 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Player's turn (FIRE) - REMAINING SPEED 26.
+2024-03-28 12:43:13,812 - INFO - Player's turn (WATER) - REMAINING SPEED 94.
+2024-03-28 12:43:13,812 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,812 - INFO - Player-WATER player attacked Boss-FIRE for 94 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 872 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Boss's turn (FIRE) - REMAINING SPEED 55.
+2024-03-28 12:43:13,812 - INFO - Boss FIRE attacked EARTH player.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player attacked Player-EARTH for 37 damage.
+2024-03-28 12:43:13,812 - INFO - Player-EARTH player has 32 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Player's turn (EARTH) - REMAINING SPEED 27.
+2024-03-28 12:43:13,812 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 864 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Player's turn (AIR) - REMAINING SPEED 22.
+2024-03-28 12:43:13,812 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-03-28 12:43:13,812 - INFO - Player-AIR player attacked Boss-FIRE for 3 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 861 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Player's turn (WATER) - REMAINING SPEED 89.
+2024-03-28 12:43:13,812 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,812 - INFO - Player-WATER player attacked Boss-FIRE for 95 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 766 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Boss's turn (FIRE) - REMAINING SPEED 50.
+2024-03-28 12:43:13,812 - INFO - Boss FIRE attacked AIR player.
+2024-03-28 12:43:13,812 - INFO - FIRE player has the advantage over AIR player.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player attacked Player-AIR for 59 damage.
+2024-03-28 12:43:13,812 - INFO - Player-AIR player has -20 HP remaining.
+2024-03-28 12:43:13,812 - INFO - AIR player has been defeated!
+2024-03-28 12:43:13,812 - INFO - Player's turn (EARTH) - REMAINING SPEED 22.
+2024-03-28 12:43:13,812 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,812 - INFO - Boss-FIRE player has 758 HP remaining.
+2024-03-28 12:43:13,812 - INFO - Player's turn (AIR) - REMAINING SPEED 17.
+2024-03-28 12:43:13,812 - INFO - Player's turn (WATER) - REMAINING SPEED 84.
+2024-03-28 12:43:13,812 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,812 - INFO - Player-WATER player attacked Boss-FIRE for 93 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 665 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Boss's turn (FIRE) - REMAINING SPEED 45.
+2024-03-28 12:43:13,813 - INFO - Boss FIRE attacked WATER player.
+2024-03-28 12:43:13,813 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player attacked Player-WATER for 12 damage.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player has 366 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (EARTH) - REMAINING SPEED 17.
+2024-03-28 12:43:13,813 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 657 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (WATER) - REMAINING SPEED 79.
+2024-03-28 12:43:13,813 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player attacked Boss-FIRE for 98 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 559 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Boss's turn (FIRE) - REMAINING SPEED 40.
+2024-03-28 12:43:13,813 - INFO - Boss FIRE attacked WATER player.
+2024-03-28 12:43:13,813 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player attacked Player-WATER for 12 damage.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player has 354 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (EARTH) - REMAINING SPEED 12.
+2024-03-28 12:43:13,813 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 551 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (WATER) - REMAINING SPEED 74.
+2024-03-28 12:43:13,813 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player attacked Boss-FIRE for 98 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 453 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Boss's turn (FIRE) - REMAINING SPEED 35.
+2024-03-28 12:43:13,813 - INFO - Boss FIRE attacked WATER player.
+2024-03-28 12:43:13,813 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player attacked Player-WATER for 12 damage.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player has 342 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (EARTH) - REMAINING SPEED 7.
+2024-03-28 12:43:13,813 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 445 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (WATER) - REMAINING SPEED 69.
+2024-03-28 12:43:13,813 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player attacked Boss-FIRE for 96 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 349 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Boss's turn (FIRE) - REMAINING SPEED 30.
+2024-03-28 12:43:13,813 - INFO - Boss FIRE attacked WATER player.
+2024-03-28 12:43:13,813 - INFO - Critical hit! FIRE player dealt more damage.
+2024-03-28 12:43:13,813 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player attacked Player-WATER for 17 damage.
+2024-03-28 12:43:13,813 - INFO - Player-WATER player has 325 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (EARTH) - REMAINING SPEED 2.
+2024-03-28 12:43:13,813 - INFO - Player-EARTH player attacked Boss-FIRE for 8 damage.
+2024-03-28 12:43:13,813 - INFO - Boss-FIRE player has 341 HP remaining.
+2024-03-28 12:43:13,813 - INFO - Player's turn (WATER) - REMAINING SPEED 64.
+2024-03-28 12:43:13,814 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,814 - INFO - Player-WATER player attacked Boss-FIRE for 93 damage.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player has 248 HP remaining.
+2024-03-28 12:43:13,814 - INFO - Boss's turn (FIRE) - REMAINING SPEED 25.
+2024-03-28 12:43:13,814 - INFO - Boss FIRE attacked EARTH player.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player attacked Player-EARTH for 35 damage.
+2024-03-28 12:43:13,814 - INFO - Player-EARTH player has -3 HP remaining.
+2024-03-28 12:43:13,814 - INFO - EARTH player has been defeated!
+2024-03-28 12:43:13,814 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-03-28 12:43:13,814 - INFO - Player's turn (WATER) - REMAINING SPEED 59.
+2024-03-28 12:43:13,814 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,814 - INFO - Player-WATER player attacked Boss-FIRE for 95 damage.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player has 153 HP remaining.
+2024-03-28 12:43:13,814 - INFO - Boss's turn (FIRE) - REMAINING SPEED 20.
+2024-03-28 12:43:13,814 - INFO - Boss FIRE attacked WATER player.
+2024-03-28 12:43:13,814 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player attacked Player-WATER for 12 damage.
+2024-03-28 12:43:13,814 - INFO - Player-WATER player has 313 HP remaining.
+2024-03-28 12:43:13,814 - INFO - Player's turn (WATER) - REMAINING SPEED 54.
+2024-03-28 12:43:13,814 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,814 - INFO - Player-WATER player attacked Boss-FIRE for 93 damage.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player has 60 HP remaining.
+2024-03-28 12:43:13,814 - INFO - Boss's turn (FIRE) - REMAINING SPEED 15.
+2024-03-28 12:43:13,814 - INFO - Boss FIRE attacked WATER player.
+2024-03-28 12:43:13,814 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player attacked Player-WATER for 12 damage.
+2024-03-28 12:43:13,814 - INFO - Player-WATER player has 301 HP remaining.
+2024-03-28 12:43:13,814 - INFO - Player's turn (WATER) - REMAINING SPEED 49.
+2024-03-28 12:43:13,814 - INFO - WATER player has the advantage over FIRE player.
+2024-03-28 12:43:13,814 - INFO - Player-WATER player attacked Boss-FIRE for 95 damage.
+2024-03-28 12:43:13,814 - INFO - Boss-FIRE player has -35 HP remaining.
+2024-03-28 12:43:13,814 - INFO - Boss (FIRE) player has been defeated!
+2024-03-28 12:43:13,814 - INFO - Boss has been defeated! Congratulations!
+2024-03-28 12:43:13,814 - INFO - Battle has finished.
+2024-03-28 12:43:13,814 - INFO - ------------------------------------------------------------
+2024-03-28 12:43:13,814 - INFO - Team current status:
+2024-03-28 12:43:13,814 - INFO - (0) WATER (Level 20) - HP: 115, Attack: 104, Defense: 83, Speed: 99 - XP: 200 - Strength: FIRE, Weakness: EARTH - Extra Points: 1 - Battle HP: 301
+2024-03-28 12:43:13,814 - INFO - (1) FIRE (Level 8) - HP: 22, Attack: 26, Defense: 19, Speed: 26 - XP: 100 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -3
+2024-03-28 12:43:13,814 - INFO - (2) AIR (Level 8) - HP: 21, Attack: 26, Defense: 25, Speed: 27 - XP: 100 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -20
+2024-03-28 12:43:13,814 - INFO - (3) EARTH (Level 10) - HP: 33, Attack: 28, Defense: 35, Speed: 32 - XP: 250 - Strength: WATER, Weakness: AIR - Extra Points: 1 - Battle HP: -3
+2024-03-28 12:43:13,814 - INFO - ------------------------------------------------------------
