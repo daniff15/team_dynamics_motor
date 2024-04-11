@@ -25,7 +25,7 @@ class Team:
     def build_team(self):
         while True:
             # Choose between default or custom elements
-            option = input("Enter 'D' for default elements or 'C' for custom elements: ").upper()
+            option = input("Enter 'D' for default elements or 'C' for custom elements (E for Exit): ").upper()
 
             if option == 'D':
                 default_elements = ["WATER", "FIRE", "AIR", "EARTH"]
@@ -39,6 +39,7 @@ class Team:
                     player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness)
                     self.team.append(player)
                 
+                print("Team created successfully!")
                 break
 
             elif option == 'C':
@@ -58,6 +59,11 @@ class Team:
                     player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness)
                     self.team.append(player)
                 
+                print("Team created successfully!")
+                break
+
+            elif option == 'E':
+                print("Exiting team creation.")
                 break
 
             else:

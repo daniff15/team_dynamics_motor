@@ -27,11 +27,12 @@ def main():
     while True:
         print("\n=== Menu ===")
         print("1. Create a New Team")
-        print("2. Display Team Stats")
+        print("2. Display Teams Stats")
         print("3. Add XP to a Player")
         print("4. Level up a Player")
         print("5. Assign Extra Points to a Player")
-        print("6. Battle Simulator")
+        print("6. Battle Simulator (Boss Battle)")
+        print("7. Battle Simulator (Teams Battle)")
         print("7. Exit")
 
         choice = input("Enter your choice (1/2/3/4/5/6/7): ")
@@ -39,14 +40,13 @@ def main():
         if choice == "1":
             team = create_team(len(teams))
             teams.append(team)
-            print("Team created successfully!")
         elif choice == "2":
             if not teams:
                 print("No teams created yet. Please create a team first.")
                 continue
-            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
-            team = teams[team_index]
-            team.display_team()
+            for team in teams:
+                team.display_team()
+                print("\n")
         elif choice == "3":
             if not teams:
                 print("No teams created yet. Please create a team first.")
@@ -62,9 +62,31 @@ def main():
             team[player_index].add_xp(xp_amount)
             print(f"{team[player_index].element} player gained {xp_amount} XP.")
         elif choice == "4":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+
+            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
+            team = teams[team_index]
+            team.display_team_indexes()
+            player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
+            if not check_player_index(team, player_index):
+                continue
+            level_amount = int(input("Enter the level that the player should have: "))
+            team[player_index].level_up_to_n_items(level_amount)
+            print(f"{team[player_index].element} player leveled up.")
+
+        elif choice == "5":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+
+            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
+            team = teams[team_index]
+
             team.display_available_extra_points()
             player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
-            if not check_player_index(player_index):
+            if not check_player_index(team, player_index):
                 continue
             extra_points = team[player_index].extra_points
 
@@ -77,7 +99,9 @@ def main():
                     team[player_index].add_extra_points_to_stat(stat_to_increase.lower(), points_to_assign)
             else:
                 print(f"{team[player_index].element} player has no extra points to assign.")
-        elif choice == "5":
+
+
+        elif choice == "6":
             def print_battle_menu_with_probabilities(probs):
                 bosses = [
                     "AIR Boss (Level 5)",
@@ -142,7 +166,7 @@ def main():
                 battle = Battle(team, boss_to_fight)
                 battle.run_battle()
 
-        elif choice == "6":
+        elif choice == "7":
             print("Exiting the program.")
             break
         else:
