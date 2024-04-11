@@ -25,7 +25,7 @@ def main():
     teams = []
 
     while True:
-        print("\n=== Menu ===")
+        print("=== Menu ===")
         print("1. Create a New Team")
         print("2. Display Teams Stats")
         print("3. Add XP to a Player")
@@ -33,7 +33,7 @@ def main():
         print("5. Assign Extra Points to a Player")
         print("6. Battle Simulator (Boss Battle)")
         print("7. Battle Simulator (Teams Battle)")
-        print("7. Exit")
+        print("8. Exit")
 
         choice = input("Enter your choice (1/2/3/4/5/6/7): ")
 
@@ -102,6 +102,13 @@ def main():
 
 
         elif choice == "6":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+
+            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
+            team = teams[team_index]
+
             def print_battle_menu_with_probabilities(probs):
                 bosses = [
                     "AIR Boss (Level 5)",
