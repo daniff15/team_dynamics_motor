@@ -4,44 +4,49 @@ from Element import Element
 from Boss import Boss
 from Battle import Battle
 
+def create_team(id):
+    team = Team(id)
+    team.build_team()
+    return team
+
+def check_player_index(team, index):
+    if index < 0 or index >= len(team.team):
+        print(f"Invalid index. Please enter a number between 0 and {len(team.team) - 1}.")
+        return False
+    return True
+
+def check_stat_to_increase(stat):
+    if stat not in ["hp", "atk", "def", "spd"]:
+        print("Invalid stat. Please enter a valid stat (HP/ATK/DEF/SPD).")
+        return False
+    return True
+
 def main():
-
-    team = Team()
-    team = team.build_team()
-
-    def check_player_index(index):
-        if index < 0 or index >= len(team.team):
-            print(f"Invalid index. Please enter a number between 0 and {len(team.team) - 1}.")
-            return False
-        return True
-
-    def check_stat_to_increase(stat):
-        if stat not in ["hp", "atk", "def", "spd"]:
-            print("Invalid stat. Please enter a valid stat (HP/ATK/DEF/SPD).")
-            return False
-        return True
+    teams = []
 
     while True:
         print("\n=== Menu ===")
-        print("1. Display Team Stats")
-        print("2. Add XP to a Player")
-        print("3. Level up a Player")
-        print("4. Assign Extra Points to a Player")
-        print("5. Battle Simulator")
-        print("6. Exit")
+        print("1. Create a New Team")
+        print("2. Display Team Stats")
+        print("3. Add XP to a Player")
+        print("4. Level up a Player")
+        print("5. Assign Extra Points to a Player")
+        print("6. Battle Simulator")
+        print("7. Exit")
 
-        choice = input("Enter your choice (1/2/3/4/5/6): ")
+        choice = input("Enter your choice (1/2/3/4/5/6/7): ")
 
         if choice == "1":
-            team.display_team()
+            team = create_team(len(teams))
+            teams.append(team)
+            print("Team created successfully!")
         elif choice == "2":
-            team.display_team_indexes()
-            player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
-            if not check_player_index(player_index):
+            if not teams:
+                print("No teams created yet. Please create a team first.")
                 continue
-            xp_amount = int(input("Enter XP amount to add: "))
-            team[player_index].add_xp(xp_amount)
-            print(f"XP added to the {team[player_index].element} player.")
+            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
+            team = teams[team_index]
+            team.display_team()
         elif choice == "3":
             team.display_team_indexes()
             player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
@@ -66,9 +71,6 @@ def main():
                     team[player_index].add_extra_points_to_stat(stat_to_increase.lower(), points_to_assign)
             else:
                 print(f"{team[player_index].element} player has no extra points to assign.")
-
-
-
         elif choice == "5":
             def print_battle_menu_with_probabilities(probs):
                 bosses = [
