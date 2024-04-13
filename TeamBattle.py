@@ -25,10 +25,12 @@ class TeamBattle:
         # boss death or all players death
         if all(character.battle_hp <= 0 for character in self.team1.team):
             if logger:
+                print("\nTEAM 2 WON, Team 1 has been defeated! Game over!\n")
                 logger.log("Team 1 has been defeated! Game over!")
             return True
         elif all(character.battle_hp <= 0 for character in self.team2.team):
             if logger:
+                print("\nTeam 1 WON, Team 2 has been defeated! Game over!\n")
                 logger.log("Team 2 has been defeated! Game over!")
             return True
         return False

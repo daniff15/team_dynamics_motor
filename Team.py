@@ -39,7 +39,7 @@ class Team:
                     player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness, team=self.id)
                     self.team.append(player)
                 
-                print("Team created successfully!")
+                print("Team created successfully!\n")
                 break
 
             elif option == 'C':
@@ -59,7 +59,7 @@ class Team:
                     player = Player(len(self.team), type_player, hp, atk, defense, speed, strength, weakness, team=self.id)
                     self.team.append(player)
                 
-                print("Team created successfully!")
+                print("Team created successfully!\n")
                 break
 
             elif option == 'E':

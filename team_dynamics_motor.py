@@ -215,7 +215,7 @@ def main():
             for team in teams:
                 for player in team.team:
                     player.level_up_to_n(level_amount)
-            print("All players leveled up.")
+            print("All players leveled up.\n")
 
         elif choice == "10":
             print("Exiting the program.")
