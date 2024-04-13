@@ -39,8 +39,11 @@ class TeamBattle:
 
     def run_battle(self):
         logger = Logger(log_folder="Log/TeamBattle")
+
+        logger.log("Team 1:")
         for character in self.team1.team:
             logger.log(str(character))
+        logger.log("Team 2:")
         for character in self.team2.team:
             logger.log(str(character))
 
@@ -51,17 +54,17 @@ class TeamBattle:
 
             logger.log(f"Player's turn ({current_character.element}) - REMAINING SPEED {current_character.remaining_speed}.")
 
-            # possible_attacks = [player for player in available_fighters if ...]
-            # target = self.boss
-            # self.attack_phase(current_character, target, logger)
+            possible_attacks = [player for player in available_fighters if current_character.team != player.team and player.battle_hp > 0]
+            target = random.choice(possible_attacks)
+            self.attack_phase(current_character, target, logger)
 
-            # # Remove the current character from the queue
-            # self.battle_queue.popleft()
+            # Remove the current character from the queue
+            self.battle_queue.popleft()
 
-            # # Check if the queue is empty, indicating that all characters have completed their turns
-            # if not self.battle_queue:
-            #     # Reinitialize the battle queue
-            #     available_fighters = self.initialize_battle_queue()
+            # Check if the queue is empty, indicating that all characters have completed their turns
+            if not self.battle_queue:
+                # Reinitialize the battle queue
+                available_fighters = self.initialize_battle_queue()
 
         logger.log("Battle has finished.")
         logger.log("------------------------------------------------------------")
