@@ -56,13 +56,10 @@ class Player(Character):
         self.defense += math.ceil(self.defense * scaling_factor * random.uniform(1, 1.1))
         self.speed += math.ceil(self.speed * scaling_factor * random.uniform(1, 1.1))
 
-    def level_up_to_n_items(self, n):
-        for _ in range(n - 1):
-            if self.level < self.MAX_LEVEL:
-                self.level_up()
-            else:
-                print(f"Max level ({self.MAX_LEVEL}) reached for ({self.id}) {self.element}.")
-                break
+    def level_up_to_n(self, n):
+        if self.level < n:
+            self.level_up()
+            self.level_up_to_n(n)
 
     def level_up(self):
         self.level += 1

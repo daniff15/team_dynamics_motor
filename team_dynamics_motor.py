@@ -30,11 +30,16 @@ def main():
         print("1. Create a New Team")
         print("2. Display Teams Stats")
         print("3. Add XP to a Player")
-        print("4. Level up a Player")
-        print("5. Assign Extra Points to a Player")
-        print("6. Battle Simulator (Boss Battle)")
-        print("7. Battle Simulator (Teams Battle)")
-        print("8. Exit")
+        print("4. Assign Extra Points to a Player")
+        print("5. Battle Simulator (Boss Battle)")
+        print("6. Battle Simulator (Teams Battle)")
+        print("=== CHEATS ===")
+        print("7. Level up a Player")
+        print("8. Add 1000 XP to all players")
+        print("9. Level up all players")
+        print("=== EXIT ===")
+        print("10. Exit")
+
 
         choice = input("Enter your choice (1/2/3/4/5/6/7): ")
 
@@ -69,21 +74,6 @@ def main():
 
             team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
             team = teams[team_index]
-            team.display_team_indexes()
-            player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
-            if not check_player_index(team, player_index):
-                continue
-            level_amount = int(input("Enter the level that the player should have: "))
-            team[player_index].level_up_to_n_items(level_amount)
-            print(f"{team[player_index].element} player leveled up.")
-
-        elif choice == "5":
-            if not teams:
-                print("No teams created yet. Please create a team first.")
-                continue
-
-            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
-            team = teams[team_index]
 
             team.display_available_extra_points()
             player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
@@ -101,8 +91,7 @@ def main():
             else:
                 print(f"{team[player_index].element} player has no extra points to assign.")
 
-
-        elif choice == "6":
+        elif choice == "5":
             if not teams:
                 print("No teams created yet. Please create a team first.")
                 continue
@@ -174,7 +163,7 @@ def main():
                 battle = BossBattle(team, boss_to_fight)
                 battle.run_battle()
 
-        elif choice == "7":
+        elif choice == "6":
             if len(teams) < 2:
                 print("You need at least 2 teams to battle.")
                 continue
@@ -191,9 +180,47 @@ def main():
             battle = TeamBattle(teams[team1_index], teams[team2_index])
             battle.run_battle()
 
+        elif choice == "7":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+
+            team_index = int(input("Enter team index (0 to {}): ".format(len(teams) - 1)))
+            team = teams[team_index]
+            team.display_team_indexes()
+            player_index = int(input("Enter player index (0 to {}): ".format(len(team.team) - 1)))
+            if not check_player_index(team, player_index):
+                continue
+            level_amount = int(input("Enter the level that the player should have: "))
+            team[player_index].level_up_to_n(level_amount)
+            print(f"{team[player_index].element} player leveled up.")
+
         elif choice == "8":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+
+            for team in teams:
+                for player in team.team:
+                    player.add_xp(1000)
+            print("All players gained 1000 XP.")
+
+        elif choice == "9":
+            if not teams:
+                print("No teams created yet. Please create a team first.")
+                continue
+
+            level_amount = int(input("Enter the level that the players should have: "))
+
+            for team in teams:
+                for player in team.team:
+                    player.level_up_to_n(level_amount)
+            print("All players leveled up.")
+
+        elif choice == "10":
             print("Exiting the program.")
             break
+
         else:
             print("Invalid choice. Please enter a valid option.")
 
