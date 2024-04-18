@@ -41,7 +41,7 @@ def main():
         print("10. Exit")
 
 
-        choice = input("Enter your choice (1/2/3/4/5/6/7): ")
+        choice = input("Enter your choice (1/2/3/4/5/6/7/8/9/10): ")
 
         if choice == "1":
             team = create_team(len(teams))

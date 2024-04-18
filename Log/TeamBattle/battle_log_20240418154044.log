@@ -1,0 +1,277 @@
+2024-04-18 15:40:44,503 - INFO - Team 1:
+2024-04-18 15:40:44,503 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10.0, Team: 0
+2024-04-18 15:40:44,503 - INFO - (1) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8.0, Team: 0
+2024-04-18 15:40:44,503 - INFO - (2) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 7.0, Team: 0
+2024-04-18 15:40:44,503 - INFO - (3) EARTH (Level 1) - HP: 9, Attack: 7, Defense: 10, Speed: 8 - XP: 0 - Strength: WATER, Weakness: AIR - Extra Points: 0 - Battle HP: 9.0, Team: 0
+2024-04-18 15:40:44,503 - INFO - Team 2:
+2024-04-18 15:40:44,503 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10.0, Team: 1
+2024-04-18 15:40:44,504 - INFO - (1) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10.0, Team: 1
+2024-04-18 15:40:44,504 - INFO - (2) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8.0, Team: 1
+2024-04-18 15:40:44,504 - INFO - (3) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 7.0, Team: 1
+2024-04-18 15:40:44,504 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:44,504 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:44,504 - INFO - Player-AIR player attacked Player-FIRE for 2 damage.
+2024-04-18 15:40:44,504 - INFO - Player-FIRE player has 6.0 HP remaining.
+2024-04-18 15:40:44,504 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:44,504 - INFO - AIR player has the advantage over EARTH player.
+2024-04-18 15:40:44,504 - INFO - Player-AIR player attacked Player-EARTH for 5 damage.
+2024-04-18 15:40:44,504 - INFO - Player-EARTH player has 4.0 HP remaining.
+2024-04-18 15:40:44,504 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:44,504 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-04-18 15:40:44,504 - INFO - Player-FIRE player attacked Player-WATER for 2 damage.
+2024-04-18 15:40:44,504 - INFO - Player-WATER player has 8.0 HP remaining.
+2024-04-18 15:40:44,504 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:44,505 - INFO - Critical hit! FIRE player dealt more damage.
+2024-04-18 15:40:44,505 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-04-18 15:40:44,505 - INFO - Player-FIRE player attacked Player-WATER for 3 damage.
+2024-04-18 15:40:44,505 - INFO - Player-WATER player has 7.0 HP remaining.
+2024-04-18 15:40:44,505 - INFO - Player's turn (EARTH) - REMAINING SPEED 8.
+2024-04-18 15:40:44,505 - INFO - Player-EARTH player attacked Player-FIRE for 3 damage.
+2024-04-18 15:40:44,505 - INFO - Player-FIRE player has 3.0 HP remaining.
+2024-04-18 15:40:44,505 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:44,505 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:44,505 - INFO - Player-WATER player has 4.0 HP remaining.
+2024-04-18 15:40:44,505 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:44,505 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:44,505 - INFO - Player-WATER player has 3.0 HP remaining.
+2024-04-18 15:40:44,505 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:44,505 - INFO - Player-WATER player attacked Player-AIR for 4 damage.
+2024-04-18 15:40:44,505 - INFO - Player-AIR player has 3.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (AIR) - REMAINING SPEED 5.
+2024-04-18 15:40:44,506 - INFO - Player-AIR player attacked Player-WATER for 3 damage.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player has 7.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (AIR) - REMAINING SPEED 5.
+2024-04-18 15:40:44,506 - INFO - Critical hit! AIR player dealt more damage.
+2024-04-18 15:40:44,506 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:44,506 - INFO - Player-AIR player attacked Player-FIRE for 3 damage.
+2024-04-18 15:40:44,506 - INFO - Player-FIRE player has 5.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (FIRE) - REMAINING SPEED 4.
+2024-04-18 15:40:44,506 - INFO - Player-FIRE player attacked Player-FIRE for 5 damage.
+2024-04-18 15:40:44,506 - INFO - Player-FIRE player has -2.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (FIRE) - REMAINING SPEED 4.
+2024-04-18 15:40:44,506 - INFO - Player's turn (EARTH) - REMAINING SPEED 3.
+2024-04-18 15:40:44,506 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:44,506 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player has 3.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player has -1.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player attacked Player-AIR for 4 damage.
+2024-04-18 15:40:44,506 - INFO - Player-AIR player has -1.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:44,506 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player attacked Player-AIR for 4 damage.
+2024-04-18 15:40:44,506 - INFO - Player-AIR player has 3.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (FIRE) - REMAINING SPEED 0.
+2024-04-18 15:40:44,506 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-04-18 15:40:44,506 - INFO - Player-FIRE player attacked Player-WATER for 2 damage.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player has 2.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-04-18 15:40:44,506 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:44,506 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:44,506 - INFO - Player-WATER player has -2.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-04-18 15:40:44,506 - INFO - Player's turn (AIR) - REMAINING SPEED 0.
+2024-04-18 15:40:44,506 - INFO - Critical hit! AIR player dealt more damage.
+2024-04-18 15:40:44,506 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:44,506 - INFO - Player-AIR player attacked Player-FIRE for 3 damage.
+2024-04-18 15:40:44,506 - INFO - Player-FIRE player has 2.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:44,506 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:44,506 - INFO - Player-AIR player attacked Player-FIRE for 2 damage.
+2024-04-18 15:40:44,506 - INFO - Player-FIRE player has 0.0 HP remaining.
+2024-04-18 15:40:44,506 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:44,507 - INFO - Player's turn (EARTH) - REMAINING SPEED 8.
+2024-04-18 15:40:44,507 - INFO - EARTH player is at a disadvantage against AIR player.
+2024-04-18 15:40:44,507 - INFO - Player-EARTH player attacked Player-AIR for 1 damage.
+2024-04-18 15:40:44,507 - INFO - Player-AIR player has 2.0 HP remaining.
+2024-04-18 15:40:44,507 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:44,507 - INFO - Player-WATER player attacked Player-AIR for 4 damage.
+2024-04-18 15:40:44,507 - INFO - Player-AIR player has -2.0 HP remaining.
+2024-04-18 15:40:44,507 - INFO - Team 2 has been defeated! Game over!
+2024-04-18 15:40:44,507 - INFO - Battle has finished.
+2024-04-18 15:40:44,507 - INFO - ------------------------------------------------------------
+2024-04-18 15:40:44,507 - INFO - Team current status:
+2024-04-18 15:40:44,507 - INFO - -------------------------TEAM 1-----------------------------
+2024-04-18 15:40:44,507 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 3.0, Team: 0
+2024-04-18 15:40:44,507 - INFO - (1) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 0.0, Team: 0
+2024-04-18 15:40:44,507 - INFO - (2) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -1.0, Team: 0
+2024-04-18 15:40:44,507 - INFO - (3) EARTH (Level 1) - HP: 9, Attack: 7, Defense: 10, Speed: 8 - XP: 0 - Strength: WATER, Weakness: AIR - Extra Points: 0 - Battle HP: 4.0, Team: 0
+2024-04-18 15:40:44,507 - INFO - -------------------------TEAM 2-----------------------------
+2024-04-18 15:40:44,507 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -2.0, Team: 1
+2024-04-18 15:40:44,507 - INFO - (1) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -1.0, Team: 1
+2024-04-18 15:40:44,507 - INFO - (2) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -2.0, Team: 1
+2024-04-18 15:40:44,507 - INFO - (3) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -2.0, Team: 1
+2024-04-18 15:40:44,507 - INFO - ------------------------------------------------------------
+2024-04-18 15:40:49,990 - INFO - Team 1:
+2024-04-18 15:40:49,990 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10, Team: 0
+2024-04-18 15:40:49,990 - INFO - (1) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8, Team: 0
+2024-04-18 15:40:49,990 - INFO - (2) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 7, Team: 0
+2024-04-18 15:40:49,990 - INFO - (3) EARTH (Level 1) - HP: 9, Attack: 7, Defense: 10, Speed: 8 - XP: 0 - Strength: WATER, Weakness: AIR - Extra Points: 0 - Battle HP: 9, Team: 0
+2024-04-18 15:40:49,990 - INFO - Team 2:
+2024-04-18 15:40:49,990 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10, Team: 1
+2024-04-18 15:40:49,991 - INFO - (1) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10, Team: 1
+2024-04-18 15:40:49,991 - INFO - (2) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8, Team: 1
+2024-04-18 15:40:49,991 - INFO - (3) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 7, Team: 1
+2024-04-18 15:40:49,991 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:49,991 - INFO - Player-AIR player attacked Player-AIR for 3 damage.
+2024-04-18 15:40:49,991 - INFO - Player-AIR player has 4 HP remaining.
+2024-04-18 15:40:49,991 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:49,991 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:49,991 - INFO - Player-AIR player attacked Player-FIRE for 2 damage.
+2024-04-18 15:40:49,991 - INFO - Player-FIRE player has 6 HP remaining.
+2024-04-18 15:40:49,991 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:49,991 - INFO - FIRE player has the advantage over AIR player.
+2024-04-18 15:40:49,991 - INFO - Player-FIRE player attacked Player-AIR for 7 damage.
+2024-04-18 15:40:49,991 - INFO - Player-AIR player has -3 HP remaining.
+2024-04-18 15:40:49,992 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:49,992 - INFO - Player-FIRE player attacked Player-EARTH for 4 damage.
+2024-04-18 15:40:49,992 - INFO - Player-EARTH player has 5 HP remaining.
+2024-04-18 15:40:49,992 - INFO - Player's turn (EARTH) - REMAINING SPEED 8.
+2024-04-18 15:40:49,992 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:49,992 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,992 - INFO - Player-WATER player has 6 HP remaining.
+2024-04-18 15:40:49,992 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:49,992 - INFO - WATER player has the advantage over FIRE player.
+2024-04-18 15:40:49,992 - INFO - Player-WATER player attacked Player-FIRE for 7 damage.
+2024-04-18 15:40:49,992 - INFO - Player-FIRE player has 1 HP remaining.
+2024-04-18 15:40:49,992 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:49,992 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,992 - INFO - Player-WATER player has 6 HP remaining.
+2024-04-18 15:40:49,992 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:49,992 - INFO - WATER player has the advantage over FIRE player.
+2024-04-18 15:40:49,993 - INFO - Player-WATER player attacked Player-FIRE for 7 damage.
+2024-04-18 15:40:49,993 - INFO - Player-FIRE player has -1 HP remaining.
+2024-04-18 15:40:49,993 - INFO - Player's turn (AIR) - REMAINING SPEED 5.
+2024-04-18 15:40:49,993 - INFO - Player-AIR player attacked Player-WATER for 3 damage.
+2024-04-18 15:40:49,993 - INFO - Player-WATER player has 3 HP remaining.
+2024-04-18 15:40:49,993 - INFO - Player's turn (FIRE) - REMAINING SPEED 4.
+2024-04-18 15:40:49,993 - INFO - FIRE player has the advantage over AIR player.
+2024-04-18 15:40:49,993 - INFO - Player-FIRE player attacked Player-AIR for 7 damage.
+2024-04-18 15:40:49,993 - INFO - Player-AIR player has 0 HP remaining.
+2024-04-18 15:40:49,993 - INFO - Player's turn (EARTH) - REMAINING SPEED 3.
+2024-04-18 15:40:49,993 - INFO - Player-EARTH player attacked Player-FIRE for 3 damage.
+2024-04-18 15:40:49,993 - INFO - Player-FIRE player has -2 HP remaining.
+2024-04-18 15:40:49,993 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:49,993 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,993 - INFO - Player-WATER player has -1 HP remaining.
+2024-04-18 15:40:49,993 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:49,993 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player has 2 HP remaining.
+2024-04-18 15:40:49,994 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:49,994 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player has 6 HP remaining.
+2024-04-18 15:40:49,994 - INFO - Player's turn (EARTH) - REMAINING SPEED 0.
+2024-04-18 15:40:49,994 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:49,994 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player has 2 HP remaining.
+2024-04-18 15:40:49,994 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player has -2 HP remaining.
+2024-04-18 15:40:49,994 - INFO - Player's turn (EARTH) - REMAINING SPEED 8.
+2024-04-18 15:40:49,994 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:49,994 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:49,994 - INFO - Player-WATER player has -2 HP remaining.
+2024-04-18 15:40:49,995 - INFO - Team 2 has been defeated! Game over!
+2024-04-18 15:40:49,995 - INFO - Battle has finished.
+2024-04-18 15:40:49,995 - INFO - ------------------------------------------------------------
+2024-04-18 15:40:49,995 - INFO - Team current status:
+2024-04-18 15:40:49,995 - INFO - -------------------------TEAM 1-----------------------------
+2024-04-18 15:40:49,995 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -2, Team: 0
+2024-04-18 15:40:49,995 - INFO - (1) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -1, Team: 0
+2024-04-18 15:40:49,995 - INFO - (2) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 0, Team: 0
+2024-04-18 15:40:49,995 - INFO - (3) EARTH (Level 1) - HP: 9, Attack: 7, Defense: 10, Speed: 8 - XP: 0 - Strength: WATER, Weakness: AIR - Extra Points: 0 - Battle HP: 5, Team: 0
+2024-04-18 15:40:49,995 - INFO - -------------------------TEAM 2-----------------------------
+2024-04-18 15:40:49,995 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -2, Team: 1
+2024-04-18 15:40:49,995 - INFO - (1) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -1, Team: 1
+2024-04-18 15:40:49,995 - INFO - (2) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -2, Team: 1
+2024-04-18 15:40:49,995 - INFO - (3) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -3, Team: 1
+2024-04-18 15:40:49,995 - INFO - ------------------------------------------------------------
+2024-04-18 15:40:53,183 - INFO - Team 1:
+2024-04-18 15:40:53,183 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10, Team: 0
+2024-04-18 15:40:53,183 - INFO - (1) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8, Team: 0
+2024-04-18 15:40:53,183 - INFO - (2) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 7, Team: 0
+2024-04-18 15:40:53,183 - INFO - (3) EARTH (Level 1) - HP: 9, Attack: 7, Defense: 10, Speed: 8 - XP: 0 - Strength: WATER, Weakness: AIR - Extra Points: 0 - Battle HP: 9, Team: 0
+2024-04-18 15:40:53,183 - INFO - Team 2:
+2024-04-18 15:40:53,183 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10, Team: 1
+2024-04-18 15:40:53,184 - INFO - (1) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 10, Team: 1
+2024-04-18 15:40:53,184 - INFO - (2) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: 8, Team: 1
+2024-04-18 15:40:53,184 - INFO - (3) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 7, Team: 1
+2024-04-18 15:40:53,184 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:53,184 - INFO - Player-AIR player attacked Player-AIR for 3 damage.
+2024-04-18 15:40:53,184 - INFO - Player-AIR player has 4 HP remaining.
+2024-04-18 15:40:53,184 - INFO - Player's turn (AIR) - REMAINING SPEED 10.
+2024-04-18 15:40:53,184 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:53,184 - INFO - Player-AIR player attacked Player-FIRE for 2 damage.
+2024-04-18 15:40:53,184 - INFO - Player-FIRE player has 6 HP remaining.
+2024-04-18 15:40:53,184 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:53,184 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-04-18 15:40:53,184 - INFO - Player-FIRE player attacked Player-WATER for 2 damage.
+2024-04-18 15:40:53,184 - INFO - Player-WATER player has 8 HP remaining.
+2024-04-18 15:40:53,184 - INFO - Player's turn (FIRE) - REMAINING SPEED 9.
+2024-04-18 15:40:53,184 - INFO - FIRE player is at a disadvantage against WATER player.
+2024-04-18 15:40:53,184 - INFO - Player-FIRE player attacked Player-WATER for 2 damage.
+2024-04-18 15:40:53,185 - INFO - Player-WATER player has 8 HP remaining.
+2024-04-18 15:40:53,185 - INFO - Player's turn (EARTH) - REMAINING SPEED 8.
+2024-04-18 15:40:53,185 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:53,185 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:53,185 - INFO - Player-WATER player has 4 HP remaining.
+2024-04-18 15:40:53,185 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:53,185 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:53,185 - INFO - Player-WATER player has 0 HP remaining.
+2024-04-18 15:40:53,185 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:53,185 - INFO - Player's turn (WATER) - REMAINING SPEED 7.
+2024-04-18 15:40:53,185 - INFO - Player-WATER player attacked Player-AIR for 4 damage.
+2024-04-18 15:40:53,185 - INFO - Player-AIR player has 3 HP remaining.
+2024-04-18 15:40:53,185 - INFO - Player's turn (AIR) - REMAINING SPEED 5.
+2024-04-18 15:40:53,185 - INFO - Player-AIR player attacked Player-WATER for 3 damage.
+2024-04-18 15:40:53,185 - INFO - Player-WATER player has 7 HP remaining.
+2024-04-18 15:40:53,185 - INFO - Player's turn (AIR) - REMAINING SPEED 5.
+2024-04-18 15:40:53,185 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:53,185 - INFO - Player-AIR player attacked Player-FIRE for 2 damage.
+2024-04-18 15:40:53,186 - INFO - Player-FIRE player has 4 HP remaining.
+2024-04-18 15:40:53,186 - INFO - Player's turn (FIRE) - REMAINING SPEED 4.
+2024-04-18 15:40:53,186 - INFO - Critical hit! FIRE player dealt more damage.
+2024-04-18 15:40:53,186 - INFO - FIRE player has the advantage over AIR player.
+2024-04-18 15:40:53,186 - INFO - Player-FIRE player attacked Player-AIR for 11 damage.
+2024-04-18 15:40:53,186 - INFO - Player-AIR player has -7 HP remaining.
+2024-04-18 15:40:53,186 - INFO - Player's turn (FIRE) - REMAINING SPEED 4.
+2024-04-18 15:40:53,186 - INFO - Player-FIRE player attacked Player-EARTH for 4 damage.
+2024-04-18 15:40:53,186 - INFO - Player-EARTH player has 5 HP remaining.
+2024-04-18 15:40:53,186 - INFO - Player's turn (EARTH) - REMAINING SPEED 3.
+2024-04-18 15:40:53,186 - INFO - EARTH player has the advantage over WATER player.
+2024-04-18 15:40:53,186 - INFO - Player-EARTH player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:53,186 - INFO - Player-WATER player has 3 HP remaining.
+2024-04-18 15:40:53,186 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:53,186 - INFO - WATER player has the advantage over FIRE player.
+2024-04-18 15:40:53,186 - INFO - Player-WATER player attacked Player-FIRE for 7 damage.
+2024-04-18 15:40:53,186 - INFO - Player-FIRE player has 1 HP remaining.
+2024-04-18 15:40:53,186 - INFO - Player's turn (WATER) - REMAINING SPEED 2.
+2024-04-18 15:40:53,186 - INFO - WATER player has the advantage over FIRE player.
+2024-04-18 15:40:53,187 - INFO - Player-WATER player attacked Player-FIRE for 7 damage.
+2024-04-18 15:40:53,187 - INFO - Player-FIRE player has -3 HP remaining.
+2024-04-18 15:40:53,187 - INFO - Player's turn (WATER) - REMAINING SPEED 0.
+2024-04-18 15:40:53,187 - INFO - Player-WATER player attacked Player-WATER for 4 damage.
+2024-04-18 15:40:53,187 - INFO - Player-WATER player has -1 HP remaining.
+2024-04-18 15:40:53,187 - INFO - Player's turn (AIR) - REMAINING SPEED 0.
+2024-04-18 15:40:53,187 - INFO - Critical hit! AIR player dealt more damage.
+2024-04-18 15:40:53,187 - INFO - AIR player is at a disadvantage against FIRE player.
+2024-04-18 15:40:53,187 - INFO - Player-AIR player attacked Player-FIRE for 3 damage.
+2024-04-18 15:40:53,187 - INFO - Player-FIRE player has -2 HP remaining.
+2024-04-18 15:40:53,187 - INFO - Team 2 has been defeated! Game over!
+2024-04-18 15:40:53,187 - INFO - Battle has finished.
+2024-04-18 15:40:53,187 - INFO - ------------------------------------------------------------
+2024-04-18 15:40:53,187 - INFO - Team current status:
+2024-04-18 15:40:53,187 - INFO - -------------------------TEAM 1-----------------------------
+2024-04-18 15:40:53,187 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 50 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 8, Team: 0
+2024-04-18 15:40:53,187 - INFO - (1) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -3, Team: 0
+2024-04-18 15:40:53,188 - INFO - (2) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: 3, Team: 0
+2024-04-18 15:40:53,188 - INFO - (3) EARTH (Level 1) - HP: 9, Attack: 7, Defense: 10, Speed: 8 - XP: 0 - Strength: WATER, Weakness: AIR - Extra Points: 0 - Battle HP: 5, Team: 0
+2024-04-18 15:40:53,188 - INFO - -------------------------TEAM 2-----------------------------
+2024-04-18 15:40:53,188 - INFO - (0) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: 0, Team: 1
+2024-04-18 15:40:53,188 - INFO - (1) WATER (Level 1) - HP: 10, Attack: 9, Defense: 8, Speed: 7 - XP: 0 - Strength: FIRE, Weakness: EARTH - Extra Points: 0 - Battle HP: -1, Team: 1
+2024-04-18 15:40:53,188 - INFO - (2) FIRE (Level 1) - HP: 8, Attack: 10, Defense: 7, Speed: 9 - XP: 0 - Strength: AIR, Weakness: WATER - Extra Points: 0 - Battle HP: -2, Team: 1
+2024-04-18 15:40:53,188 - INFO - (3) AIR (Level 1) - HP: 7, Attack: 8, Defense: 9, Speed: 10 - XP: 0 - Strength: EARTH, Weakness: FIRE - Extra Points: 0 - Battle HP: -7, Team: 1
+2024-04-18 15:40:53,188 - INFO - ------------------------------------------------------------
