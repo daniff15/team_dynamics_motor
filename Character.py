@@ -4,7 +4,7 @@ import random
 class Character:
     BASE_XP = 100
     INCREMENT = 50
-    MAX_FIRST_FORMULA_LEVEL = 19
+    MAX_FIRST_FORMULA_LEVEL = 9
     MAX_LEVEL = 20
     MAX_XP = 1000
     CRITICAL_HIT_PROBABILITY = 0.1

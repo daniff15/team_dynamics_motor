@@ -41,9 +41,10 @@ class Player(Character):
         if self.level < self.MAX_FIRST_FORMULA_LEVEL:
             xp_needed = self.BASE_XP + ((self.level - 1) * self.INCREMENT)
         else:
-            xp_needed = self.BASE_XP + ((self.MAX_FIRST_FORMULA_LEVEL - 1) * self.INCREMENT) + ((self.level - self.MAX_FIRST_FORMULA_LEVEL) * self.INCREMENT * 2)
+            #xp_needed = self.BASE_XP + ((self.MAX_FIRST_FORMULA_LEVEL - 1) * self.INCREMENT) + ((self.level - self.MAX_FIRST_FORMULA_LEVEL) * self.INCREMENT * 2)
+            xp_needed = 500
         
-        return min(xp_needed, self.MAX_XP)
+        return xp_needed
 
     def update_stats(self, scaling_factor=0.11):
         old_hp = self.hp
